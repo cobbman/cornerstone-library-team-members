@@ -8,11 +8,12 @@
 	color: #fff;
 	padding: .5em 1em;
 	position: absolute;
+	text-align: center;
 	top: 48%;
 	left: 0;
 	right: 0;
 	margin: 0 auto;
-	width: 160px;
+	width: 45%;
 }
 .teammember-image-wrap {
 	position: relative;
@@ -26,10 +27,13 @@
 .teammember:hover .view-profile {
 	display: block;
 }
+.teammember-image-wrap:hover img {
+	opacity: .7;
+}
 .teammember-info {
 	/*background-color: #00a94e;*/
 	color: #fff;
-	font-family: 'TrajanPro', serif;
+	/*font-family: 'TrajanPro', serif;*/
 	padding: .8em 1em;
 	text-transform: capitalize;
 
@@ -55,19 +59,34 @@
   width: 2em;
 }
 
+.teammember-bio-container {
+	margin: 0 auto;
+	width: 100%;
+}
+@media screen and (min-width: 600px) {
+	.teammember-bio-container {
+		width: 80%;
+	}
+}
+@media screen and (min-width: 900px) {
+	.teammember-bio-container {
+		width: 50%;
+	}
+}
+
 .teammember-bio-content {
 	margin-top: 100px;
 }
 .teammember-bio-content img {
-	width: 250px;
+	max-width: 250px;
 }
 .teammember-bio-content .teammember-name {
-	font-family: 'TrajanPro', serif;
+	/*font-family: 'TrajanPro', serif;*/
 	font-size: 26px;
 	color: #000;
 }
 .teammember-bio-content .teammember-title {
-	font-family: 'TrajanPro', serif;
+	/*font-family: 'TrajanPro', serif;*/
 	font-size: 20px;
 	color: #000;
 	margin-bottom: 1em;

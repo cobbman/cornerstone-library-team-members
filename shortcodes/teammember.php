@@ -39,7 +39,7 @@ function csl_shortcode_teammember( $atts, $content = null ) {
               . "<div class=view-profile style=\"background-color:{$color};\">View Profile</div>"
             . '</div>'
             . '<div class="teammember-bio-overlay">'
-              . '<div class="x-container max width">'
+              . '<div class="teammember-bio-container">'
                 . "<a href=# class=t-close style=\"background-color:{$color};\">x</a>"
                 . '<div class="teammember-bio-content">'
                   . "<img src=\"{$image}\" class=\"alignleft\"/>"
