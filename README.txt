@@ -24,5 +24,7 @@
 
 #################################################################
 
+Author: BigWilliam <hello@bigwilliam.com>
+
 Adds the ability to display team members, with a Modal pop-up when clicked on
 
