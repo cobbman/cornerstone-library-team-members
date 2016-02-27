@@ -2,7 +2,7 @@
 /*
 Plugin Name: Cornerstone Library: Team Members
 Plugin URI:  http://cornerstonelibrary.com/
-Description: Adds a new element to Cornerstone - a team member promo box which shows the bio in a lightbox when clicked on. Based on the promo box which comes default with Cornerstone. Download more at <a href="//cornerstonelibrary.com" target="_blank">CornerstoneLibrary.com</a>.
+Description: Adds a new element to Cornerstone - a team member promo box which shows the bio in a lightbox when clicked on. Learn more at <a href="//cornerstonelibrary.com" target="_blank">CornerstoneLibrary.com</a>.
 Version:     1.0
 Author:      BigWilliam
 Author URI:  http://bigwilliam.com
