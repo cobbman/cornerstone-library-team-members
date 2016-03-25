@@ -23,7 +23,7 @@ define( 'CSL_TEAMMEMBER_URL', plugin_dir_url( __FILE__ ) );
 add_action( 'cornerstone_register_elements', 'csl_teammember_register_elements' );
 
 /* Add Icon Map */
-add_filter( 'cornerstone_icon_map', 'cornerstone_library_icon_map');
+add_filter( 'cornerstone_icon_map', 'csl_teammember_icon_map');
 
 /* scripts */
 add_action( 'wp_enqueue_scripts', 'csl_teammember_scripts');
